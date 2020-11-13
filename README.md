@@ -1,7 +1,8 @@
 # i18n-zipcodes-csharp
 
 International zipcodes validator in C#, based on https://github.com/sarcadass/i18n-zipcodes
-Version 1.0.0 of this library is compatible with version 3.1.0 of i18n-zipcodes.
+
+Version 1.0 of this library is compatible with version 3.1.0 of i18n-zipcodes.
 
 ## Example
 

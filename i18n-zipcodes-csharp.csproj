@@ -4,8 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>i18n_zipcodes_csharp</RootNamespace>
     <PackageId>i18n-zipcodes-csharp</PackageId>
-    <Version>1.0.0</Version>
-    <Authors>Sebastian Hew</Authors>
+    <Version>1.0.1</Version>
+    <Authors>jingfee</Authors>
+    <RepositoryUrl>https://github.com/jingfee/i18n-zipcodes-csharp</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/jingfee/i18n-zipcodes-csharp</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>
