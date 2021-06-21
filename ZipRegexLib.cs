@@ -21,7 +21,6 @@ namespace i18n_zipcodes_csharp
             { "ge", new Regex(@"^((\d{4})|(\d{6}))$")},
             { "ie", new Regex(@"^(?:^[AC-FHKNPRTV-Y][0-9]{2}|D6W)[ -]?[0-9AC-FHKNPRTV-Y]{4}$")},
             { "jp", new Regex(@"^\d{3}(-\d{4})?$")},
-            { "kr", new Regex(@"^\d{3}-\d{3}$")},
             { "lv", new Regex(@"^([a-zA-Z]{2}-)?(\d{4})$")},
             { "mv", new Regex(@"^\d{4,5}$")},
             { "mt", new Regex(@"^[a-zA-Z]{3}\s\d{2,4}$")},
@@ -38,7 +37,7 @@ namespace i18n_zipcodes_csharp
             {
                 "is|mg".Split('|'),
                 "at|au|bd|be|bg|ch|cx|cy|dk|gl|gw|hu|li|lu|md|mk|mz|no|nz|ph|sd|si|tn|ve|xk|za".Split('|'),
-                "as|ba|cu|de|dz|ee|es|fi|fm|gf|gp|gt|gu|hr|ic|id|il|it|ke|kw|lt|ma|me|mh|mm|mp|mq|mx|my|pk|pm|pr|ps|pw|re|sa|sm|th|tr|ua|uy|vi|vn|yu|zm".Split('|'),
+                "as|ba|cu|de|dz|ee|es|fi|fm|gf|gp|gt|gu|hr|ic|id|il|it|ke|kr|kw|lt|ma|me|mh|mm|mp|mq|mx|my|pk|pm|pr|ps|pw|re|sa|sm|th|tr|ua|uy|vi|vn|yu|zm".Split('|'),
                 "am|az|bj|by|cn|co|in|kg|kz|mn|ro|rs|ru|sg|tj|tm|uz".Split('|'),
                 "cz|gr|se|sk".Split('|')
             },
